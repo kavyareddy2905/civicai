@@ -1,0 +1,15 @@
+{
+  "name": "civicai-backend",
+  "version": "1.0.0",
+  "description": "CivicAI backend – Express API + FastAPI YOLOv8 detection service",
+  "private": true,
+  "scripts": {
+    "setup:server": "npm --prefix server install",
+    "setup:ai": "pip install -r ai-service/requirements.txt",
+    "setup": "npm run setup:server",
+    "dev:server": "npm --prefix server run dev",
+    "start:server": "npm --prefix server start",
+    "start:ai": "uvicorn main:app --host 0.0.0.0 --port 8000 --reload --app-dir ai-service",
+    "dev": "npm run start:ai"
+  }
+}

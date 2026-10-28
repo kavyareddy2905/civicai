@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ai-venv/
+
+# YOLO / model weights (large)
+*.pt
+!**/models/.gitkeep
+
+# Uploads (keep folder, ignore images)
+civicai-backend/server/uploads/*
+!civicai-backend/server/uploads/.gitkeep
+
+# Tooling / caches
+civicai-backend/.tools/
+.DS_Store
+*.log
+.npm
+.cache/
+dist/
+build/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp

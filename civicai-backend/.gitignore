@@ -1,0 +1,14 @@
+node_modules/
+server/node_modules/
+server/uploads/*
+!server/uploads/.gitkeep
+server/.env
+__pycache__/
+*.pyc
+.ai-venv/
+.venv/
+venv/
+*.pt
+.DS_Store
+*.log
+.env

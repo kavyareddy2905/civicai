@@ -1,0 +1,7 @@
+# CivicAI issue class labels (index = line number, 0-based)
+# Used for fine-tuned civic YOLO weights and for remapping outputs.
+pothole
+garbage
+water_leakage
+drainage_blockage
+broken_streetlight
