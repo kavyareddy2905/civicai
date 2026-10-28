@@ -24,6 +24,7 @@ civicai-backend/server/uploads/*
 !civicai-backend/server/uploads/.gitkeep
 
 # Tooling / caches
+.tools/
 civicai-backend/.tools/
 .DS_Store
 *.log
